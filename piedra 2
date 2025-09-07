@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8" />
+      <title> Practica 2</title>
+      <script>
+            let jugador = 0
+            let juga2 = 2
+            jugador = prompt("Elige del 1 al 3")
+            if(jugador == 1) {
+                alert ("Jugador escogio piedra")
+            }   else if (jugador == 2){
+                alert ("jugador escogio papel") 
+            }   else if (jugador == 3) {
+                alert ("jugador escogio tijeras")
+            } else {
+                alert ("Elegiste perder")
+            }
+            if (juga2 == 1) {
+                alert ("Jugador escogio piedra")
+            }   else if (juga2 == 2){
+                alert ("jugador escogio papel") 
+            }   else if (juga2 == 3) {
+                alert ("jugador escogio tijeras")
+            }   else {
+                alert ("juga perder")
+            }
+            if(juga2 == jugador) {
+                alert ("EMPATE")
+            } else if(jugador == 1 && juga2 == 3) {
+                alert ("GANASTE")
+            } else if(jugador == 2 && juga2 == 1) {
+                alert("GANASTE")
+            } else if(jugador == 3 && juga2 == 2) {
+                alert("GANASTE")
+            } else {
+                alert ("PERDISTE")
+            }
+        </script>
+    </head>
+    <h1> Practicame</h1>
+</html>
