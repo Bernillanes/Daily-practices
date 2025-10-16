@@ -25,5 +25,5 @@ for i in range (n):
         except ValueError:
             print ("Ingresa los 3 numeros de 0 a 1")
 print ("Los problemas que se solucionaron fueron: ", contador)
-print ("hola")
+
             
