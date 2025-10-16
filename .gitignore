@@ -1,0 +1,17 @@
+# Archivos de mac Os
+.DS_Store
+
+#Archivos de python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+#Srchivo de entorno
+.env
+.vscode/
+.idea/
+
+# Otros
+*.log
+*.temp
