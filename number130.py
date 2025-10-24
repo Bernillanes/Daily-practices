@@ -1,14 +1,19 @@
-number1 = 30
-num2 = 20
-num3 = 40
-num4 = 32 
-num5 = 30
-num6 = 32
-num7 = 30
+while True:
+     try:
+        n = int(input())
+        break
+     except ValueError:
+          print ("Ingresa un numero")
 
-suma1 = (number1 + num2 - num3)
-
-if suma1 > 30:
-    print ("true")
-else:
-    print ("False"
+for i in range(n):
+    while True:
+            palabra = input().strip()
+            if palabra.isalpha():
+                break
+            else:
+                print ("Mal")
+    if len(palabra) >= 10:
+        abreviatura = palabra [0] + str(len(palabra) - 2) + palabra [-1]
+        print (f"Tu palabra es: {abreviatura}")
+    else:
+        print (palabra)
